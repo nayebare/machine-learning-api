@@ -1,10 +1,11 @@
 
 # machine-api.py
-# (c) 2019 fieldcloud SAS. all rights reserved
+# (c) 2019 micheal nayebare
 # VERSION:
 # DATE: TOD
 # AUTHOR: micheal.nayebare@gmail.com
-# back-end api file for machine-learning-model
+# back-end api file for machine-learning-model for image prediction
+# data-sets are fruit images
 
 
 import flask
@@ -37,7 +38,7 @@ def predict_result(img):
 def index():
     return("Machine Learning Inference") 
     
-#send sms
+#get product route
 @app.route("/predict", methods=['POST'])
 def infer_image():
     # Catch the image file from a POST request
