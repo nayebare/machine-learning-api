@@ -4,7 +4,7 @@
 # VERSION:
 # DATE: TOD
 # AUTHOR: micheal.nayebare@gmail.com
-# back-end api file for machine-learning-model for image prediction
+# simple back-end api file for machine-learning-model for image prediction
 # data-sets are fruit images
 
 
